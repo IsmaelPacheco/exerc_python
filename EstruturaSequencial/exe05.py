@@ -1,6 +1,9 @@
 # Faça um Programa que converta metros para centímetros.
 
-valor_metros = float(input("Digite o valor em metros à converter:"))
+valor_metros = float(
+    input("Digite o valor em metros à converter:")
+    .replace(",", "."))
+
 valor_centimetro = valor_metros * 100
 add_plural = ""
 
